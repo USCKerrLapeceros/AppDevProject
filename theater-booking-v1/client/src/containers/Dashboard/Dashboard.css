@@ -1,0 +1,74 @@
+.dashboard .main {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.dashboard .main h1,
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.seat-main {
+  margin: 30px 0px 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seat-image {
+  width: 70%;
+}
+
+.seat-submain {
+  width: 9.8%;
+  border: 0.3px solid gray;
+  border-radius: 10px;
+  margin: 0px 0px 2px 2px;
+  cursor: pointer;
+}
+
+.movie {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.pick-movie {
+  margin-right: 30px;
+}
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.selectMovie {
+  display: flex;
+  justify-content: flex-start;
+}
+.selectedMovie {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mainMovie {
+  padding: 0px 40px 0px 40px;
+}
+
+.red {
+  color: #b21717;
+}
+.green {
+  color: #2f8c25;
+}
+
+.screen-container {
+  perspective: 2000px;
+  padding: 0px 50px;
+}
+.screen {
+  background-color: gray;
+  height: 150px;
+  width: 100%;
+  margin: 20px 0;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgb(255 255 255 / 75%);
+}

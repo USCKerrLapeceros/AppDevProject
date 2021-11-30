@@ -1,0 +1,35 @@
+.booking .main {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.booking .main h1,
+h5,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.movie-image {
+  width: 210px;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.booking-main {
+  padding: 100px 200px 100px 200px;
+}
+
+.booking-row {
+  border: 0.3px solid gray;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  height: 270px;
+}
+
+.movie-description {
+  text-align: left;
+  padding: 20px;
+}
